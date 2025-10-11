@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conversion Web Application</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body id="body">
+
+    <header id="header">
+        <h1 id="title">Currency Conversion</h1>
+    </header>
+
+    <main id="main-content">
+        <form id="conversion-form">
+            <label id="from-label" for="fromCurrency">From</label>
+            <input type="text" id="fromCurrency" placeholder="USD">
+
+            <label id="to-label" for="toCurrency">To</label>
+            <input type="text" id="toCurrency" placeholder="EUR">
+
+            <label id="amount-label" for="amount">Amount</label>
+            <input type="number" id="amount" placeholder="100">
+
+            <button type="submit" id="convert-button">Convert</button>
+        </form>
+
+        <div id="result">
+            Conversion result will appear here
+        </div>
+    </main>
+</body>
+</html>
