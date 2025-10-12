@@ -1,16 +1,20 @@
+Alex Russell
+B00920458
+GitLab - https://git.cs.dal.ca/russell2/a1
+
 # Application Type
 Currency conversion
 
-I chose this application because funny enough I had an opprotunity to intern 
-at a company where my role would have been a software developer working on LANGUAGE conversion. 
-
-So this will be the closure for that internship <3
-
 ## Description
-This application will allow users to convert between different cuurencies by searching for exchange rates.
+This application will allow users to convert between different cuurencies in real time. Users can input the base currency, then the target currency, and the amount to get the correct converted value. 
 Other features include:
 - A 1:1 conversion for the default currency (CAD).
 - A save conversion list.
+
+# How to Run
+Given this is just basic html/css and javascript the easiet way to run is to:
+- git clone the repo
+- open index.html in your preferred browser
 
 # My Oberservations
 I wish i had started this sooner, my UI is not where I wanted it to be.
