@@ -8,6 +8,20 @@ So this will be the closure for that internship <3
 
 ## Description
 This application will allow users to convert between different cuurencies by searching for exchange rates.
-If time allows it I will add client side storage, or a favouriting system.
+Other features include:
+- A 1:1 conversion for the default currency (CAD).
+- A save conversion list.
 
-More reasonable given I'm doing this day of, will be a favourite search filter.
+# My Oberservations
+I wish i had started this sooner, my UI is not where I wanted it to be.
+I had to focus on getting the functionality working, and learning how to achieve the logic and reading the documentation really took away from the UI :(
+
+It's just been that kind of a semester
+
+I'll learn from this for the next assignment and better manage my time!
+
+# Citations
+- FastFOREX documentation. (n.d.). fastFOREX.io. https://fastforex.readme.io/reference/introduction
+- W3Schools.com. (n.d.-b). https://www.w3schools.com/js/js_validation.asp (This is just for form validation, but W3Schools was my main source)
+-Contributors, M. O. J. T. a. B. (n.d.-b). Introduction. https://getbootstrap.com/docs/5.0/getting-started/introduction/
+

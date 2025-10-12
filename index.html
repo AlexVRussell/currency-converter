@@ -5,32 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Conversion Web Application</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+        crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body id="body">
 
     <header id="header">
-        <h1 id="title">Currency Conversion</h1>
+        <h1 id="title" class="fs-4 fw-bold mt-3 text-green">Currency Conversion</h1>
     </header>
 
     <main id="main-content">
         <form id="conversion-form">
             <label id="from-label" for="fromCurrency">From</label>
-            <input type="text" id="fromCurrency" placeholder="USD">
+            <input type="text" id="fromCurrency" placeholder="CAD">
 
             <label id="to-label" for="toCurrency">To</label>
-            <input type="text" id="toCurrency" placeholder="EUR">
+            <input type="text" id="toCurrency" placeholder="USD">
 
             <label id="amount-label" for="amount">Amount</label>
             <input type="number" id="amount" placeholder="100">
 
             <button type="submit" id="convert-button">Convert</button>
         </form>
-
-        <div id="result">
-            Conversion result will appear here
-        </div>
+        <button id="save-button" class="btn btn-success w-100 mb-3">Save Current Rate</button>
     </main>
+    <div id="result" class="fs-5 fw-bold text-center mt-3">Result:</div>
+
+    <section id="realtime-section">
+        <h2 class="fs-5 fw-bold mb-2">CAD Exchange Rate</h2>
+        <input type="text" id="searchCurrency" placeholder="Search (USD)">
+        <button id="search-button">Search</button>
+        <div id="cad-rate"></div>
+    </section>
+
+    <!-- Some sort of a favourite or list of saved conversions -->
+    <section id="my-currencies" class="">
+        <h2 class="fs-5 fw-bold mb-2">My Currencies</h2>
+        <div id="saved-list" class="list-group"></div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,94 @@
+/* The general styles are just the desktop view*/
+
+#body {
+    background-color: lightgrey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-content {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    width: 100%;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#result {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 75%;
+    width: 100%;
+}
+
+#my-currencies {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 75%;
+    width: 50%;
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #main-content,
+    #result,
+    #realtime-section,
+    #my-currencies {
+        max-width: 85%;
+    }
+    #title {
+        font-size: 2rem;
+    }
+    input, select, button {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+}
+/* Phone View */
+@media (max-width: 767px) {
+    #main-content,
+    #result,
+    #realtime-section,
+    #my-currencies {
+        max-width: 95%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+    #title {
+        font-size: 1.5rem;
+    }
+    input, select, button {
+        font-size: 0.9rem;
+        padding: 8px;
+        margin: 8px;
+    }
+    #cad-rate {
+        font-size: 1rem;
+    }
+    .list-group-item {
+        font-size: 0.9rem;
+    }
+    #header {
+        padding: 10px;
+    }
+}
