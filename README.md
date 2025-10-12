@@ -18,7 +18,7 @@ Given this is just basic html/css and javascript the easiet way to run is to:
 
 # My Oberservations
 I wish i had started this sooner, my UI is not where I wanted it to be.
-I had to focus on getting the functionality working, and learning how to achieve the logic and reading the documentation really took away from the UI :(
+I had to focus on getting the functionality working, and learning how to achieve the logic and reading the documentation really took away from the UI (Got a good start for learning bootstrap!)
 
 It's just been that kind of a semester
 
